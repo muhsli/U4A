@@ -18,25 +18,48 @@
     under the License.
 -->
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello Mangeee</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>MANGE</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Manglad</p>
-            </div>
-        </div>
-        <script type="text/javascript" src="cordova-2.4.0.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-    </body>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport"
+	content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+<title>Hello Mangeee</title>
+</head>
+<body>
+	<script type="text/javascript" src="cordova-2.4.0.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+	<div id='slider3' class='swipe'>
+		<ul>
+			<li style='display: block'><div>
+					<h1>In every dual-core phone, there’s a PC trying to get out.</h1>
+
+				</div></li>
+			<li style='display: none'><div>
+					<h1>Hola</h1>
+					content page 2 </br>
+				</div></li>
+			<li style='display: none'><div>
+					<h1>habla</h1>
+					content page 3 </br>
+				</div></li>
+		</ul>
+		<div id="linx">
+			<a id="first" href='#' onclick='slider3.prev();return false;'>prev</a>
+			<a id="sec" href='#' onclick='slider3.next();return false;'>next</a>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+
+	<script src='swipe.js'></script>
+	<script>
+		var slider3 = new Swipe(document.getElementById('slider3'));
+	</script>
+</body>
 </html>
