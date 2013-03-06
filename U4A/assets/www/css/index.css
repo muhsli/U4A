@@ -1,9 +1,4 @@
-html, body {
-	overflow-y: hidden;
-}
-
 html,body,ul,li {
-	height: 100%;
 	background: #ffffff;
 	margin: 0;
 	padding: 0;
@@ -19,6 +14,7 @@ body {
 }
 
 h1 {
+	background-color: #fff;
 	font-size: 36px;
 	margin: 15px;
 	text-align: center;
@@ -27,9 +23,9 @@ h1 {
 }
 
 #linx{
-	position:absolute;
-	bottom: 4px;
-	left:43%;
+	position: fixed;
+	bottom: 40px;
+	left:42.5%;
 }
 
 a {
@@ -48,7 +44,7 @@ a {
 
 .swipe li div {
 	height: 100%;
-	padding: 50px 10px;
+	padding: 0px 10px;
 	color: #000;
 	font-size: 20px;
 	text-align: center;
@@ -60,6 +56,4 @@ a {
 }
 
 .scrollable {
-	overflow-y: auto;
-	-webkit-overflow-scrolling: touch;
 }
