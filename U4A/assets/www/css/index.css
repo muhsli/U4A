@@ -63,3 +63,8 @@ a {
 	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
 }
+
+.citat {
+	font-size: 45px;
+	color: #aea79f;
+}
