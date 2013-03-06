@@ -1,6 +1,5 @@
 html,body,ul,li {
-	width: 100%;
-	height:100%;
+	height: 100%;
 	background: #ffffff;
 	margin: 0;
 	padding: 0;
@@ -9,12 +8,9 @@ html,body,ul,li {
 	font-size: 100%;
 	vertical-align: baseline;
 	overflow-y: hidden;
-	overflow-x: hidden;
 }
 
 body {
-	height:100%;
-	width:100%;
 	-webkit-text-size-adjust: none;
 	font-family: Ubuntu, Arial, "libra sans", sans-serif;
 }
@@ -29,8 +25,8 @@ h1 {
 
 #linx{
 	position:absolute;
-	bottom:0;
-	left:47%;
+	bottom: 4px;
+	left:43%;
 }
 
 a {
@@ -47,7 +43,8 @@ a {
 	-webkit-backface-visibility: hidden;
 }
 
-.swipe li div,.swipe div div div {
+.swipe li div, .swipe div div div {
+	height: 100%;
 	padding: 50px 10px;
 	color: #000;
 	font-size: 20px;
@@ -57,5 +54,9 @@ a {
 .text{
 	font-size: 30px;
 	text-align: left;
-	
+}
+
+.scrollable {
+	height: 80%;
+	overflow: scroll;
 }

@@ -22,7 +22,7 @@ package se.miun.dt130g.mape1133.ubuntu4android;
 import android.os.Bundle;
 import org.apache.cordova.*;
 
-public class PhoneGap extends DroidGap
+public class MainActivity extends DroidGap
 {
     @Override
     public void onCreate(Bundle savedInstanceState)
