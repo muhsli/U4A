@@ -152,12 +152,8 @@ h1.firstpage-h1 {
 	margin-right: auto;
 }
 
-.no-bullets {
+.center {
 	margin-right: auto;
 	margin-left: auto;
-	list-style: none;
-}
-
-.no-bullets * {
-	display: inline;
+	width: 70%;
 }
