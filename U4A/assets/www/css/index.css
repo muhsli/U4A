@@ -85,8 +85,8 @@ nav #position li.on {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 30%;
-	
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .restbilder{
 	display: block;
@@ -94,4 +94,17 @@ nav #position li.on {
 	height: 50%;
 	
 	
+}
+
+h1.firstpage {
+	background-color: #fff;
+	font-size: 3.7em;
+	margin: 0px;
+	text-align: center;
+	color: #666;
+	font-weight: normal;
+}
+
+.firstpagediv {
+	margin-top: 30%;
 }
