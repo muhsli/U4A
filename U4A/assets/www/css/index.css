@@ -35,7 +35,7 @@ body {
 .indicator{
 	position: fixed;
 	bottom: 40px;
-	left:36.5%;
+	left: 36.5%;
 }
 
 nav #position {
@@ -61,6 +61,11 @@ nav #position li.on {
 	background-color: purple;
 }
 
+/* .page {
+	border-bottom: thin;
+	border-style: dotted;
+} */
+
 .page h1 {
 	background-color: #fff;
 	font-size: 2.6em;
@@ -70,10 +75,11 @@ nav #position li.on {
 	font-weight: normal;
 }
 
-.page p {
+.text {
 	margin: 1em;
 	font-size: 2em;
-	margin-bottom: 80px;
+	text-align: left;
+	padding-bottom: 80px;
 }
 
 .citat {
