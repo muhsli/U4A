@@ -100,6 +100,21 @@ button {
 	font-smoothing: subpixel-antialiased;
 }
 
+.videoWrapper {
+	position: relative;
+	padding-bottom: 75%; /* för 4:3 (3 / 4 = 0.75 = 75%) */
+/* 	padding-bottom: 56.25%; för 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .text {
 	margin: 1em;
 	font-size: 2em;
