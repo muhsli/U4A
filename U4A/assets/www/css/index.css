@@ -153,7 +153,27 @@ h1.firstpage-h1 {
 }
 
 .center {
-	margin-right: auto;
+	vertical-align: middle;
 	margin-left: auto;
-	width: 70%;
+	margin-right: auto;
+	text-align: center;
+}
+
+#two-columns {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#two-columns li {
+	margin-bottom: 1em;
+}
+
+#left_col {
+	width: 50%;
+	float: left;
+}
+
+#right_col {
+	float: right;
+	width: 50%;
 }
