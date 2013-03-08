@@ -35,17 +35,16 @@ body {
 .indicator {
 	position: fixed;
 	bottom: 40px;
-	left: 36.5%;
 }
 
-nav #position {
+#position {
 	text-align: center;
 	list-style: none;
 	margin: 0;
 	padding: 0
 }
 
-nav #position li {
+#position li {
 	display: inline-block;
 	width: 10px;
 	height: 10px;
@@ -56,7 +55,7 @@ nav #position li {
 	cursor: pointer
 }
 
-nav #position li.on {
+#position li.on {
 	box-shadow: inset 0 1px 3px black, 0 0 1px 1px #202020;
 	background-color: purple;
 }
@@ -75,7 +74,6 @@ nav #position li.on {
 }
 
 button {
-	display: inline;
 	bottom: 2em;
 	font-size: 2em;
 	background-color: #c03f11;
@@ -108,13 +106,6 @@ button {
 	text-align: left;
 }
 
-#column { {
-	-moz-column-count: 2;
-	-webkit-column-count: 2;
-	column-count: 2;
-}
-
-}
 .citat {
 	font-size: 45px;
 	color: #aea79f;
@@ -157,15 +148,12 @@ h1.firstpage-h1 {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	width: 100%;
 }
 
 #two-columns {
 	width: 100%;
 	margin: 0 auto;
-}
-
-#two-columns li {
-	margin-bottom: 1em;
 }
 
 #left_col {
@@ -176,4 +164,12 @@ h1.firstpage-h1 {
 #right_col {
 	float: right;
 	width: 50%;
+}
+
+#two-columns ul {
+	list-style: url("./img/tick-orange.png");
+}
+
+#two-columns li {
+	margin-bottom: 1em;
 }
