@@ -14,6 +14,14 @@
 <body>
 	<script type="text/javascript" src="cordova-2.4.0.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
+	<script>
+		function loadURL(url) {
+			navigator.app.loadUrl(url, {
+				openExternal : true
+			});
+			return false;
+		}
+	</script>
 	<div id='mySwipe' class='swipe'>
 		<div class='swipe-wrap'>
 			<div class="page">
@@ -63,27 +71,27 @@
 					<div id="left_col">
 						<ul class="col-ul">
 							<h3>Benefits for network operators</h3>
-							<li>Deliver the enterprise next-gen desktop in a single
-								device</li>
-							<li>Drive adoption of 4G handsets, as online apps like
-								Google Docs shine with low-latency connections</li>
-							<li>Expand your service portfolio from the smart phone to
+							<li><span>Deliver the enterprise next-gen desktop in a single
+								device</span></li>
+							<li><span>Drive adoption of 4G handsets, as online apps like
+								Google Docs shine with low-latency connections</span></li>
+							<li><span>Expand your service portfolio from the smart phone to
 								the smart desktop by delivering productivity desktop apps,
-								including managed Windows apps as a service on your network</li>
-							<li>Satisfy demand for first PCs to families in emerging
-								economies with no legacy wired connectivity</li>
+								including managed Windows apps as a service on your network</span></li>
+							<li><span>Satisfy demand for first PCs to families in emerging
+								economies with no legacy wired connectivity</span></li>
 						</ul>
 					</div>
 					<div id="right_col">
 						<ul>
 							<h3>Benefits for handset makers</h3>
-							<li>Drive sales of multi-core phones with faster CPUs, more
-								cores, more RAM and high-end graphics</li>
-							<li>Target lucrative markets for thin client in the
-								enterprise and first PCs in emerging markets</li>
-							<li>Integrate easily with Android phones already in
-								development</li>
-							<li>Accessorise with docks, cables, keyboards and displays</li>
+							<li><span>Drive sales of multi-core phones with faster CPUs, more
+								cores, more RAM and high-end graphics</span></li>
+							<li><span>Target lucrative markets for thin client in the
+								enterprise and first PCs in emerging markets</span></li>
+							<li><span>Integrate easily with Android phones already in
+								development</span></li>
+							<li><span>Accessorise with docks, cables, keyboards and displays</span></li>
 						</ul>
 					</div>
 				</div>
@@ -105,7 +113,8 @@
 					one place for text messages and one inbox for mail. And thanks to
 					careful integration between the Ubuntu desktop and Android, user’s
 					have access to the phone’s functions when it’s docked – including
-					making and receiving calls.
+					making and receiving calls.</br></br>
+					<a onclick="loadURL('http://www.ubuntu.com/devices/android/features-and-specs')">See the features in full ›</a>
 				</p>
 			</div>
 			<div class="page">
@@ -159,7 +168,8 @@
 					manufacturers in China, India and Brazil today. It’s easy, it has
 					an amazing range of software on tap, and it’s totally integrated
 					with our personal cloud service, Ubuntu One. Pure 21st century
-					goodness.
+					goodness.</br></br>
+					<a onclick="loadURL('http://www.ubuntu.com/devices/android/commercial-info')">See commercial information in full ›</a>
 				</p>
 			</div>
 			<div class="page">
@@ -216,18 +226,17 @@
 					for install by default. And because we care about security, Ubuntu
 					includes free security updates across more applications than any
 					competitor. During the netbook era, every manufacturer created
-					their own Linux, but customers rebelled. Today, they ship Ubuntu.
+					their own Linux, but customers rebelled. Today, they ship Ubuntu.</br></br>
+					<a onclick="loadURL('http://www.ubuntu.com/devices/android/features-and-specs')">See the features in full ›</a>
 				</p>
 			</div>
 			<div class="page">
 				<h1>A whole new peripheral ecosystem</h1>
-				<p class="text">
-					Users will want at least one dock, complete with monitor, keyboard
-					and mouse. Many will want two of each - one for the office and one
-					for the home. And mobile users will opt for clamshell devices that
-					give them a laptop experience whenever they need it - on the train,
-					on the plane or in meetings.
-				</p>
+				<p class="text">Users will want at least one dock, complete with
+					monitor, keyboard and mouse. Many will want two of each - one for
+					the office and one for the home. And mobile users will opt for
+					clamshell devices that give them a laptop experience whenever they
+					need it - on the train, on the plane or in meetings.</p>
 
 				<div class="center">
 					<img style="margin-left: 1em; margin-right: 1em"
@@ -241,14 +250,12 @@
 						alt="Laptop pictogram" />
 				</div>
 
-				<p class="text">
-					Desktop productivity goes well beyond the keyboard, monitor and
-					mouse. Imagine projectors with a phone dock built in, so you can
-					carry less to your presentations. And imagine TVs that become home
-					PCs when you dock your phone: perfect for the emerging market where
-					LTE will be the normal way for new users to connect to the
-					Internet.
-				</p>
+				<p class="text">Desktop productivity goes well beyond the
+					keyboard, monitor and mouse. Imagine projectors with a phone dock
+					built in, so you can carry less to your presentations. And imagine
+					TVs that become home PCs when you dock your phone: perfect for the
+					emerging market where LTE will be the normal way for new users to
+					connect to the Internet.</p>
 
 
 
@@ -291,7 +298,8 @@
 					years of experience in bringing new products to market, providing
 					complete, end-to-end solutions - identifying opportunities,
 					developing strategies and ensuring a stunning experience on every
-					Ubuntu device.
+					Ubuntu device.</br></br>
+					<a onclick="loadURL('http://www.ubuntu.com/devices/backed-by-canonical')">Learn more about working with us ›</a>
 				</p>
 			</div>
 			<div class="page">
@@ -302,17 +310,10 @@
 				</h1>
 				<p class="text">
 					Mobile network operators and handset makers If you’d like to help
-					make this happen, please get in touch to arrange a meeting. </br> </br>
-					Contact information</br> First name: *</br> </br> Last name: *</br> </br> Company name: *</br> </br>
-					Company website: *</br> </br> Email address: *</br> </br> Phone number: *</br> </br> </br> Your
-					interests</br> What influence do you have over launching a phone in the
-					next 12 to 18 months?</br> </br> What is your main interest in Ubuntu for
-					phones? *</br> </br> Are you personally attending MWC? Yes</br> Please share more:
-					*</br> </br> </br> Your organisation</br> Country: *</br> </br> Industry: *</br> </br> Job role: *</br> </br> Number
-					of employees: *</br> </br> </br> Would you like to follow progress with our mobile
-					newsletter?</br> I would like to receive occasional news about Ubuntu by
-					email.</br> All information provided will be handled in accordance with
-					the Canonical privacy policy.</br>
+					make this happen, please get in touch to arrange a meeting. </br> </br> <strong>[The
+					contact form is not activated in this non-official version of the
+					application.]</strong></br> </br> 
+					<a onclick="loadURL('http://www.ubuntu.com/devices/android/contact-us')">Go to the original contact form ›</a>
 				</p>
 			</div>
 		</div>

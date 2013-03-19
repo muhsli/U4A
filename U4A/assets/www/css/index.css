@@ -76,7 +76,6 @@ body {
 button {
 	bottom: 2em;
 	font-size: 2em;
-	background-color: #c03f11;
 	margin-top: 25%;
 	margin-left: 1em;
 	-webkit-border-radius: 4px;
@@ -120,6 +119,11 @@ button {
 	margin-right: 1em;
 	font-size: 2em;
 	text-align: left;
+}
+
+.text a {
+	color:#dd4814;
+	text-decoration:none
 }
 
 .citat {
@@ -182,4 +186,10 @@ h1.firstpage-h1 {
 
 #two-columns li {
 	margin-bottom: 1em;
+	color: #dd4814;
+}
+
+#two-columns li span {
+	margin-bottom: 1em;
+	color: #000;
 }
