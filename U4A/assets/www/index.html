@@ -11,14 +11,6 @@
 	rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<script>
-		function loadURL(url) {
-			navigator.app.loadUrl(url, {
-				openExternal : true
-			});
-			return false;
-		}
-	</script>
 	<div id='mySwipe' class='swipe'>
 		<div class='swipe-wrap'>
 			<div class="page">
@@ -333,7 +325,8 @@
 		</ul>
 	</div>
 
-	<script src='swipe.js'></script>
+	<script type="text/javascript" src="js/cordova-2.4.0.js"></script>
+    <script type="text/javascript" src='js/swipe.js'></script>
 	<script>
 		window.mySwipe = new Swipe(document.getElementById('mySwipe'), {
 			callback : function(pos) {
@@ -347,6 +340,14 @@
 			}
 		}), bullets = document.getElementById('position').getElementsByTagName(
 				'li');
+	</script>
+	<script>
+		function loadURL(url) {
+			navigator.app.loadUrl(url, {
+				openExternal : true
+			});
+			return false;
+		}
 	</script>
 </body>
 </html>
